@@ -23,16 +23,16 @@ META information ###########################################################
 <meta charset="utf-8">
 
 <!--Prevent pinch to zoom on iOS devices-->
-<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;"/>
 
 <!--Allow saving as a web app on the home screen on iOS Devices (doesn't apply in Baker)-->
-<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes"/>
 
 <!--If the page is saved as a web app, the statusbar will be black-translucent (doesn't apply in Baker)-->
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
 
 <!--Prevent phone number detection on iOS devices-->
-<meta name="format-detection" content="telephone=no" />
+<meta name="format-detection" content="telephone=no"/>
 
 
 <!--Title. The content of the title is displayed on the loading screen on iOS devices-->
@@ -45,10 +45,10 @@ Stylesheets ################################################################
 -->
 
 <!--Loading the main style sheet-->
-<link href="styles/styles.css" rel="stylesheet" type="text/css" />
+<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
 
 <!--Loading the dossier specific css-->
-<link href="styles/dossiers/02.css" rel="stylesheet" type="text/css" />
+<link href="styles/dossiers/02.css" rel="stylesheet" type="text/css"/>
 
 <!--
 ############################################################################
@@ -78,32 +78,6 @@ Javascripts ################################################################
 </head>
 
 <body>
-
-<!--
-############################################################################
-"Table of content" in navigation bar #######################################
-############################################################################
--->
-
-<div class="nav-bar">
-	<div class="nav-bar-container">
-		
-        <a href="#Inhaltsverzeichnis" class="nav-button toc"><div class="toc-label">Navigation</div>
-		
-        <div class="toc-list">
-			<!--Include "Table of content" from external file-->
-			<div id="includeTOC" csi:src="inc/toc.html"></div>
-		</div><!--Div toc-list-->
-		</a>
-        
-	</div><!--Div nav-bar-container-->
-</div><!--Div nav-bar-->
-
-<!--
-############################################################################
-End "Table of content" in navigation bar ###################################
-############################################################################
--->
 
 
 <!--
@@ -155,7 +129,7 @@ Start content ##############################################################
 </div><!-- Div dossier-start-bg-->
 
 <!--Arrow which indicates the start of the text-->
-<div class="dossier-headline-arrow"><img src="images/dossier-headline-arrow.png" /></div>
+<div class="dossier-headline-arrow"><img src="images/dossier-headline-arrow.png"/></div>
 
 <!--"content-element" ensures, that content is placed within the right margins-->
 <div class="content-element">
@@ -174,7 +148,7 @@ Start content ##############################################################
      
 <!--Embed YouTube-Video. Note: Use the "old" embed code. The iframe-Version won't work in the LAKER iOS app. Thinking of not including this.-->
 <div class="media-right">
-<object width="1280" height="750"><param name="movie" value="https://www.youtube.com/watch?v=L8ecYGO781g"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="https://www.youtube.com/watch?v=L8ecYGO781g" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="1280" height="750"></embed></object>
+<object width="1280" height="750"><param name="movie" value="https://www.youtube.com/watch?v=L8ecYGO781g">Animation</param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="https://www.youtube.com/watch?v=L8ecYGO781g" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="1280" height="750"></embed></object>
 <div class="caption"><p>Animation<br/></p></div><!--Div caption-->
 </div><!--Div media right-->
 <br>
@@ -336,6 +310,5 @@ End of content #############################################################
 
   
   
-
 </body>
 </html>
